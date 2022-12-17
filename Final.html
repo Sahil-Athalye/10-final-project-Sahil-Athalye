@@ -1,113 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Magic Biryani Image Generator</title>
-    <style>
-      body {
-        background-image: linear-gradient(to top, #78521d, #be813a);
-        font-family: 'Noto Sans', sans-serif;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        text-align: center;
-      }
-      h1 {
-        color: rgb(0, 0, 0);
-        text-shadow: 2px 2px 4px #af9898;
-      }
-      img {
-        width: 100%;
-        max-width: 600px;
-        border: 10px solid #000000;
-        border-radius: 20px;
-        box-shadow: 4px 4px 8px #888888;
-      }
-      .description {
-        margin-top: 20px;
-        font-size: 18px;
-        color: #FFF;
-        text-shadow: 1px 1px 2px #000000;
-      }
-      .highlight {
-        color: #FFFF00;
-      }
-    
-      #task-button{
-        cursor:pointer;
-        border-radius: 7px;
-        border-width: 1px;
-        background-color: #be813a;
-        color: #41311b;
-        display: inline-block;
-        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        list-style: none;
-        margin: 0;
-        padding: 10px 12px;
-        text-align: center;
-      }
-      #myImg{
-        width: 100%;
-        max-width: 600px;
-        border: 8px solid #f632ec;
-        border-radius: 20px;
-        box-shadow: 4px 4px 8px #888888;
-      }
-      #myImg:hover{
-        transform: scale(1.1);
-      }
-      #citation{
-        font-size: small;
-        color: whitesmoke;
-        border-top: 2px solid black;
-      }
-      #citation2{
-        font-size: small;
-        color: whitesmoke;
-        border-bottom: 2px solid black;
-      }
-
-      .image-gallery img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        margin: 10px;
-        border: 5px solid #FFD700;
-        border-radius: 10px;
-        box-shadow: 2px 2px 4px #888888;
-      }
-
-      .image-gallery img{
-        object-fit: cover;
-        object-position: center;        
-      }
-
-      /* .image-gallery{
-        display: flex;
-        gap: 4vmin;
-        user-select: none;
-        position:relative;
-        right:100%;
-      } */
-    
-      @media (max-width: 800px) {
-        .container {
-          width: 90%;
-          margin: 0 auto;
-          text-align: center;
-        }
-        .image-gallery img {
-          width: 150px;
-          height: 150px;
-          margin: 5px;
-          border: 3px solid #FFD700;
-          border-radius: 5px;
-          box-shadow: 2px 2px 4px #888888;
-        }
-      }
-    </style>
+    <!--viewport & stylesheet-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Final.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
   </head>
   <body>
     
@@ -135,13 +34,32 @@
         <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 3">
         <img src="https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 4">
         <img src="https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 5">
-        <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 6">
+        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 6">
         <img src="https://images.unsplash.com/photo-1633945274417-ab205ae69d10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 7">
         <img src="https://images.unsplash.com/photo-1625485617425-4eb8ed7d82d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 8">
         <img src="https://images.unsplash.com/photo-1630851840633-f96999247032?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbiUyMGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 9">
-        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 10">
+        <!-- <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 10"> -->
+       <!-- JQuery Import -->
         <script src="Final.js"></script>
       </div>
+      <br>
+      <p class="list">My favorite kinds of biryani</p>
+      <ol class="list" type="1">
+        <li>Sindhi Chicken Biryani, a heavily spiced biryani with a bold flavor sourced from chilies that can be mildened with the addition of potatoes</li>
+        <li>Lucknowi Goat Biryani, a biryani spiced with anise, cinammon, and saffron that originates from Northern India</li>
+        <li>Malabar Chicken Biryani, a biryani spiced with a paste comprised of green chilies, cardamom, cloves, fennel, and other spices</li>
+        <li>Goat Dum Biryani, a standardly spiced biryani that is air cooked or baked in a spherical clay pot</li>
+        <li>Kolkata Biryani, a mild spiced biryani with spicy chicken that hails from Kolkata in West Bengal</li>
+      </ol>
+      <hr>
+      <p class="links">Please Visit These Links for More Information</p>
+              <nav class="links2">
+                <a href="https://sukhis.com/biryani-a-complete-guide-and-recipe/">Biryani:A Complete Guide and Recipe</a> |
+                <a href="https://en.wikipedia.org/wiki/Biryani">Biryani Wikipedia</a> |
+                <a href="https://www.indianhealthyrecipes.com/chicken-biryani-recipe/">Chicken Biryani Recipe</a> |
+                <a href="https://www.turmericstl.com">Local Favorite Biryani Place</a>
+              </nav>
+      <!-- Important Image Citations -->
         <p id="citation">All generated images are courtesy of the Anoram Biryani API, sourced from https://biriyani.anoram.com</p>
         <p id="citation2">All images in gallery are courtesy of Unsplash, sourced from https://unsplash.com/s/photos/biryani</p>
         

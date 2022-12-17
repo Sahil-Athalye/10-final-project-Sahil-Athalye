@@ -1,0 +1,120 @@
+body {
+    background-image: linear-gradient(to top, #471111, #ac3333);
+    font-family: 'Noto Sans', sans-serif;
+    border-image: url(https://www.w3schools.com/css/border.png);
+    border-image-width: 5;
+    border-image-slice: 26;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1 {
+    color: rgb(221, 224, 255);
+    text-shadow: 2px 2px 4px #3e3cb0;
+  }
+  img {
+    width: 100%;
+    max-width: 600px;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #888888;
+  }
+  .description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px #000000;
+  }
+  .highlight {
+    color: #FFFF00;
+  }
+
+  #task-button{
+    cursor:pointer;
+    border-radius: 7px;
+    border-width: 1px;
+    background-color: #be813a;
+    color: #41311b;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+  }
+  #myImg{
+    width: 100%;
+    max-width: 600px;
+    border: 8px solid #f632ec;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #888888;
+  }
+  #myImg:hover{
+    transform: scale(1.1);
+  }
+  #citation{
+    font-size: small;
+    color: whitesmoke;
+    border-top: 2px solid black;
+    padding-top: 10px;
+  }
+  #citation2{
+    font-size: small;
+    color: whitesmoke;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+  }
+
+  .image-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #888888;
+  }
+
+  .image-gallery img{
+    object-fit: cover;
+    object-position: center;        
+  }
+
+  .list{
+    color:rgb(255, 255, 255);
+    background-color:#621818;
+    max-width:1000px;
+    margin: 10px;
+    padding:20px;
+    /* border: solid rgb(125, 125, 125) 3px; */
+  }
+
+  .links{
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+  }
+
+  .links2{
+    background-color: rgb(252, 238, 114);
+  }
+
+  @media (max-width: 800px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .image-gallery img {
+      width: 150px;
+      height: 150px;
+      margin: 5px;
+      border: 3px solid #FFD700;
+      border-radius: 5px;
+      box-shadow: 2px 2px 4px #888888;
+    }
+  }
