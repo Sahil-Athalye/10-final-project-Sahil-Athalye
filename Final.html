@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <title>Magic Biryani Image Generator</title>
+    <style>
+      body {
+        background-image: linear-gradient(to top, #78521d, #be813a);
+        font-family: 'Noto Sans', sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      h1 {
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 4px #af9898;
+      }
+      img {
+        width: 100%;
+        max-width: 600px;
+        border: 10px solid #000000;
+        border-radius: 20px;
+        box-shadow: 4px 4px 8px #888888;
+      }
+      .description {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #FFF;
+        text-shadow: 1px 1px 2px #000000;
+      }
+      .highlight {
+        color: #FFFF00;
+      }
+    
+      #task-button{
+        cursor:pointer;
+        border-radius: 7px;
+        border-width: 1px;
+        background-color: #be813a;
+        color: #41311b;
+        display: inline-block;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        padding: 10px 12px;
+        text-align: center;
+      }
+      #myImg{
+        width: 100%;
+        max-width: 600px;
+        border: 8px solid #f632ec;
+        border-radius: 20px;
+        box-shadow: 4px 4px 8px #888888;
+      }
+      #myImg:hover{
+        transform: scale(1.1);
+      }
+      #citation{
+        font-size: small;
+        color: whitesmoke;
+        border-top: 2px solid black;
+      }
+      #citation2{
+        font-size: small;
+        color: whitesmoke;
+        border-bottom: 2px solid black;
+      }
+
+      .image-gallery img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+        border: 5px solid #FFD700;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px #888888;
+      }
+
+      .image-gallery img{
+        object-fit: cover;
+        object-position: center;        
+      }
+
+      /* .image-gallery{
+        display: flex;
+        gap: 4vmin;
+        user-select: none;
+        position:relative;
+        right:100%;
+      } */
+    
+      @media (max-width: 800px) {
+        .container {
+          width: 90%;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .image-gallery img {
+          width: 150px;
+          height: 150px;
+          margin: 5px;
+          border: 3px solid #FFD700;
+          border-radius: 5px;
+          box-shadow: 2px 2px 4px #888888;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Welcome to Sahil's Magical Biryani Image Generator</h1>
+      <br>
+      <img id="myImg" src="https://biriyani.anoram.com/img/7.jpg" alt="Intricately Designed Image">
+      <br>
+      <br>
+      <input type="button" id="task-button" value="Generate a New Biryani Image">
+      <p class="description">
+        Biryani is a type of rice dish that originated in India and is now popular in many parts of South Asia 
+        and the Middle East. It is typically made with long-grain rice (such as basmati) that is cooked with spices, 
+        vegetables, and meat (such as chicken, beef, lamb, or shrimp). The ingredients are usually layered in a pot 
+        and cooked on low heat until the rice is tender and the flavors have melded together. Biryani can be 
+        served as a main course or as a side dish, and it is often accompanied by raita (a yogurt-based condiment) 
+        or other accompaniments. There are many variations of biryani, and the ingredients and spices used can vary 
+        greatly depending on the region and personal preference. 
+        <br>
+        <span class="highlight">In case the biryani image generator is not enough to satisfy your biryani cravings, here are 10 more biryani images.</span>
+      </p>
+      <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Image 1">
+        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 2">
+        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 3">
+        <img src="https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 4">
+        <img src="https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 5">
+        <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 6">
+        <img src="https://images.unsplash.com/photo-1633945274417-ab205ae69d10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 7">
+        <img src="https://images.unsplash.com/photo-1625485617425-4eb8ed7d82d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 8">
+        <img src="https://images.unsplash.com/photo-1630851840633-f96999247032?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbiUyMGJpcnlhbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Image 9">
+        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image 10">
+        <script src="Final.js"></script>
+      </div>
+        <p id="citation">All generated images are courtesy of the Anoram Biryani API, sourced from https://biriyani.anoram.com</p>
+        <p id="citation2">All images in gallery are courtesy of Unsplash, sourced from https://unsplash.com/s/photos/biryani</p>
+        
+    </body>
+
+    </html>
